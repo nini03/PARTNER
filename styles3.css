@@ -1,0 +1,60 @@
+<style>
+    body {
+
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+	
+	
+    }
+    
+    table {
+        position: absolute;
+	top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-collapse: collapse;
+        width: 95%;
+        height: 50%;
+        border: 1px solid #bdc3c7;
+        box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+	margin-top: 100px;
+	
+    }
+    
+    tr {
+        transition: all .2s ease-in;
+        cursor: pointer;
+    }
+    
+    th,
+    td {
+        padding: 12px;
+        text-align: center;
+        border-bottom: 1px solid #ddd;
+    }
+    
+    #header {
+        background-color: #7697a0;
+        color: #fff;
+    }
+    
+    h1 {
+        font-weight: 600px;
+        text-align: center;
+        background-color: #94bdb7;
+        color: #fff;
+        padding: 10px 0px;
+	
+    }
+    
+    tr:hover {
+        background-color: #86e3ce;
+        transform: scale(1.02);
+        box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+    }
+    
+
+
+
+
+   
+</style>
